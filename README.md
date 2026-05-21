@@ -45,8 +45,10 @@ String Operations
 
 1️⃣ Install Python & Jupyter Notebook
 pip install jupyter
+
 2️⃣ Open Jupyter Notebook
 jupyter notebook
+
 3️⃣ Run the Notebook Files
 Open:
 Calculator_Implementation.ipynb
