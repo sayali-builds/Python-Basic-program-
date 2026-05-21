@@ -5,12 +5,14 @@ loops, conditional statements, functions, and user input handling. These project
 understanding of Python programming through hands-on implementation using Jupyter Notebook.
 
 🚀 Projects Included
+
 🔹 Simple Calculator
 A basic calculator program that performs:
 Addition
 Subtraction
 Multiplication
 Division
+
 🔹 Password Generator
 A Python-based password generator that allows:
 Random password generation
@@ -32,11 +34,15 @@ Random Module
 String Operations
 
 📂 Project Structure
+
 ├── Calculator_Implementation.ipynb
+
 ├── Password_Generator.ipynb
+
 └── README.md
 
-▶️ How to Runthe Project
+▶️ How to Run the Projects 
+
 1️⃣ Install Python & Jupyter Notebook
 pip install jupyter
 2️⃣ Open Jupyter Notebook
@@ -48,10 +54,15 @@ Password_Generator.ipynb
 Run all cells to execute the programs.
 
 🌟 Features
+
 ✨ Beginner-Friendly Python Programs
+
 ✨ Practical Hands-on Implementation
+
 ✨ Easy-to-Understand Code
+
 ✨ Jupyter Notebook Based Learning
+
 ✨ Core Python Concept Practice
 
 🎯 Learning Outcomes
