@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "collapsed": true,
+        "id": "Pr0a0_PlY7w-",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "56f93cc0-f5e9-485c-8d48-92857ed5502c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Simple Calculator\n",
+            "Enter first number: 67\n",
+            "Enter second number: 89\n",
+            "1.Add  2.Subtract  3.Multiply  4.Divide\n",
+            "Choose operation: 3\n",
+            "Result: 5963.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "def calculator():\n",
+        "    print(\"Simple Calculator\")\n",
+        "    a = float(input(\"Enter first number: \"))\n",
+        "    b = float(input(\"Enter second number: \"))\n",
+        "\n",
+        "    print(\"1.Add  2.Subtract  3.Multiply  4.Divide\")\n",
+        "    choice = input(\"Choose operation: \")\n",
+        "\n",
+        "    if choice == '1':\n",
+        "        print(\"Result:\", a + b)\n",
+        "    elif choice == '2':\n",
+        "        print(\"Result:\", a - b)\n",
+        "    elif choice == '3':\n",
+        "        print(\"Result:\", a * b)\n",
+        "    elif choice == '4':\n",
+        "        if b != 0:\n",
+        "            print(\"Result:\", a / b)\n",
+        "        else:\n",
+        "            print(\"Cannot divide by zero\")\n",
+        "    else:\n",
+        "        print(\"Invalid choice\")\n",
+        "\n",
+        "calculator()"
+      ]
+    }
+  ]
+}
