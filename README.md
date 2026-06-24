@@ -6,19 +6,35 @@ understanding of Python programming through hands-on implementation using Jupyte
 
 🚀 Projects Included
 
-🔹 Simple Calculator
+🧮 Simple Calculator
 A basic calculator program that performs:
 Addition
-Subtraction
+Substraction 
 Multiplication
 Division
 
-🔹 Password Generator
+🔐 Password Generator
 A Python-based password generator that allows:
 Random password generation
 Use of letters, numbers, and special characters
 Customizable password length
 Multiple password generation options
+
+
+  📊 NumPy Sales Analysis
+- Analyzed monthly sales data using NumPy
+- Calculated total sales, average sales, highest and lowest sales
+- Identified best-performing month and sales growth percentage
+
+  💰 Employee Salary Analysis
+- Performed salary data analysis using NumPy
+- Calculated mean, median, standard deviation, highest and lowest salary
+- Generated insights from employee salary distribution
+
+  📈 Student Performance Analysis
+Analyzed student marks and performance
+Created visualizations using Matplotlib
+Compared subject-wise and overall performance
 
 🛠️ Technologies Used
 Python
@@ -38,6 +54,12 @@ String Operations
 ├── Calculator_Implementation.ipynb
 
 ├── Password_Generator.ipynb
+
+├── Numpy_Sales_Analysis.ipynb
+
+├── Employee_Salary_Analysis.ipynb
+
+├── Student_Performance.ipynb    
 
 └── README.md
 
